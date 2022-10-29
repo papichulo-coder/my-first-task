@@ -26,8 +26,8 @@ app.use(function(req, res, next) {
     res.send({"slackusername":"paulocodes",
               "backend":"true",
               "Age":18,
-              "Bio":"just a guy who likes writing code Trying to be the best engineer in the world"}
-         )
+              "Bio":"just a guy who likes writing code Trying to be the best engineer in the world"
+  })
               
   })
 
