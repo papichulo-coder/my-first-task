@@ -23,8 +23,8 @@ app.use(function(req, res, next) {
   });
   
   app.get('/',(req,res,next)=>{
-    res.send({"slack username":"paulocodes",
-              "backend":"true",
+    res.send({"slackUsername":"paulocodes",
+              "backend":true,
               "age":18,
               "bio":"just a guy who likes writing code Trying to be the best engineer in the world"
   })
